@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export function Hero() {
     return ( // bg chama a cor utilizando Tailwind // Relativo OverflorHidden tira a rolagem lateral do site
-        <section className="bg-[#E84C30] text-white relative overflow-hidden"> 
+        <section className="bg-[#51b1e9] text-white relative overflow-hidden"> 
 
             <div>
                 <Image
@@ -15,8 +15,10 @@ export function Hero() {
                 priority
                 className='object-cover opacity-60 lg:hidden'
                 />
+                
                 <div className='absolute inset-0 bg-black opacity-35 md:hidden'></div>
-            </div>
+                
+            </div> 
 
             <div className='container mx-auto pt-16 pb-16 md:pb-0 px-4 relative'>
 
@@ -32,7 +34,7 @@ export function Hero() {
                     <div>
                         <a 
                         href="#link"
-                        className="bg-green-500 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
+                        className="bg-green-600 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                         >
                         <WhatsappLogo className='w-5 h-5'/>
                             Contato via Whatsapp
