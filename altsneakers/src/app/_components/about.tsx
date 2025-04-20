@@ -11,7 +11,7 @@ export function About() {
 
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-12 items-center'>
 
-            <div className='relative'>
+                <div className='relative'>
 
                     <div className='relative w-full h-[400px] rounded-3xl overflow-hidden'> 
                         <Image
@@ -34,14 +34,14 @@ export function About() {
                         />
                     </div>
 
-            </div>
+                </div>
 
-            <div className='space-y-6 mt-10'>
+                <div className='space-y-6 mt-10'>
 
                 <h2 className='text-4xl font-bold'>SOBRE</h2>
 
                 <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus, esse? Nisi beatae nihil blanditiis sapiente velit architecto dignissimos id corporis libero inventore? Ut labore ullam iusto, recusandae eius qui illo.
+                Descubra a revolução nos calçados que combina design arrojado com performance incomparável. Nossos produtos são feitos para quem não teme desafios e quer pisar forte em qualquer lugar. Conquiste o mundo com os modelos que não passam despercebidos.
                 </p>
 
                 <ul className='space-y-4'>
@@ -57,6 +57,10 @@ export function About() {
                     <li className='flex items-center gap-2'>
                         <Check className='text-blue-500'/>
                         Desde 2022                   
+                    </li>
+                    <li className='flex items-center gap-2'>
+                        <Check className='text-blue-500'/>
+                        100% dos pedidos sob encomenda                   
                     </li>
                     
                 </ul>
@@ -79,9 +83,9 @@ export function About() {
                     </a>
                 </div>
 
-            </div>
+                </div>
 
-        </div>
+            </div>
 
 
 
