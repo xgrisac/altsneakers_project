@@ -1,10 +1,10 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
-import sneakerImg from '../../../public/bg-hero.png'
+import sneakerImg from '../../../public/tenisheaderfinal.png'
 import Image from 'next/image'
 
 export function Hero() {
     return ( // bg chama a cor utilizando Tailwind // Relativo OverflorHidden tira a rolagem lateral do site
-        <section className="bg-[#51b1e9] text-white relative overflow-hidden"> 
+        <section className="bg-[#76bde6] text-white relative overflow-hidden"> 
 
             <div>
                 <Image
@@ -13,6 +13,7 @@ export function Hero() {
                 fill
                 sizes="100vw"
                 priority
+                quality={100}
                 className='object-cover opacity-60 lg:hidden'
                 />
                 

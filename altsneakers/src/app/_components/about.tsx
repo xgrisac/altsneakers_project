@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import about1Img from '../../../public/about-1.png'
-import about2Img from '../../../public/about-2.png'
+import about1Img from '../../../public/tenisprincipal1.jpg'
+import about2Img from '../../../public/logoaltsneakers.jpeg'
 import { Check } from 'lucide-react';
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react/dist/ssr';
 
@@ -38,8 +38,6 @@ export function About() {
 
                 <div className='space-y-6 mt-10'>
 
-                <h2 className='text-4xl font-bold'>SOBRE</h2>
-
                 <p>
                 Descubra a revolução nos calçados que combina design arrojado com performance incomparável. Nossos produtos são feitos para quem não teme desafios e quer pisar forte em qualquer lugar. Conquiste o mundo com os modelos que não passam despercebidos.
                 </p>
@@ -56,7 +54,7 @@ export function About() {
                     </li>
                     <li className='flex items-center gap-2'>
                         <Check className='text-blue-500'/>
-                        Desde 2022                   
+                        Desde 2023                   
                     </li>
                     <li className='flex items-center gap-2'>
                         <Check className='text-blue-500'/>
@@ -76,9 +74,9 @@ export function About() {
 
                     <a 
                     href="#LinkInstagram" 
-                    className=' text-black flex  w-fit gap-2 px-4 py-2 rounded-md' 
+                    className=' bg-[#EB4B3B] text-white flex  w-fit gap-2 px-4 py-2 rounded-md' 
                     >
-                        <InstagramLogo className='w-5 h-5 text-black'/>
+                        <InstagramLogo className='w-5 h-5 text-white'/>
                         Instagram
                     </a>
                 </div>
