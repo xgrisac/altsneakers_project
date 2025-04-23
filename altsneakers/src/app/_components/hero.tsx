@@ -25,8 +25,8 @@ export function Hero() {
 
             <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
 
-                <div className='space-y-6'>
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">A alternatica de tênis perfeita pra você!
+                <div className='space-y-6' >
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10" data-aos="fade-down" >A alternatica de tênis perfeita pra você!
                     </h1>
                     <p className=" lg:text-lg ">
                     Oferecemos os melhores <b>sneakers</b> para combinar conforto e estilo no seu dia-a-dia.
@@ -34,7 +34,8 @@ export function Hero() {
 
                     <div>
                         <a 
-                        href="#link"
+                        href="https://wa.me/31997400212?text=Ola, vim pelo site e gostaria de mais informações!"
+                        target='_blank'
                         className="bg-green-600 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2"
                         >
                         <WhatsappLogo className='w-5 h-5'/>
