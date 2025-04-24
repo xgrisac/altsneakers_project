@@ -36,7 +36,7 @@ export function About() {
 
                 </div>
 
-                <div className='space-y-6 mt-10' data-aos="fade-up-left">
+                <div className='space-y-6 mt-10' data-aos="fade-down">
 
                 <p>
                 Descubra a revolução nos calçados que combina design arrojado com performance incomparável. Nossos produtos são feitos para quem não teme desafios e quer pisar forte em qualquer lugar. Conquiste o mundo com os modelos que não passam despercebidos.
