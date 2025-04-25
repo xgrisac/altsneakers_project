@@ -3,6 +3,13 @@ import about1Img from '../../../public/tenisprincipal1.jpg'
 import about2Img from '../../../public/logoaltsneakers.jpeg'
 import { Check } from 'lucide-react';
 import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react/dist/ssr';
+import { Montserrat } from 'next/font/google'
+
+const montserrat = Montserrat({
+  weight: '400', // Peso intermediário para subtítulos
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export function About() {
     return(
@@ -36,8 +43,8 @@ export function About() {
 
                 </div>
 
-                <div className='space-y-6 mt-10' data-aos="fade-down">
-
+                <div className='space-y-6 mt-10' data-aos="fade-up">
+                <h2 className={`text-3xl ${montserrat.className}`}>Alt Sneakers</h2> 
                 <p>
                 Descubra a revolução nos calçados que combina design arrojado com performance incomparável. Nossos produtos são feitos para quem não teme desafios e quer pisar forte em qualquer lugar. Conquiste o mundo com os modelos que não passam despercebidos.
                 </p>

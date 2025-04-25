@@ -2,6 +2,21 @@ import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 import sneakerImg from '../../../public/tenisheaderfinal.png'
 import sneakerImg2 from '../../../public/tenisheadermenor.png'
 import Image from 'next/image'
+import { Bebas_Neue } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
+
+const montserrat = Montserrat({
+  weight: '400', // Peso intermediário para subtítulos
+  subsets: ['latin'],
+  display: 'swap',
+})
+
+
+const bebasNeue = Bebas_Neue({
+  weight: '400',
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export function Hero() {
     return ( // bg chama a cor utilizando Tailwind // Relativo OverflorHidden tira a rolagem lateral do site
@@ -26,9 +41,10 @@ export function Hero() {
             <article className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
 
                 <div className='space-y-6'>
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10" data-aos="fade-down">A alternatica de tênis perfeita pra você!
-                    </h1>
-                    <p className=" lg:text-lg" data-aos="fade-down">
+                <h1 className={`text-3xl md:text-4xl lg:text-5xl font-bold leading-10 ${bebasNeue.className}`} data-aos="fade-down">
+                A alternativa de tênis perfeita pra você!
+                </h1>
+                    <p className={`lg:text-lg  ${montserrat.className}`} data-aos="fade-down">
                     Oferecemos os melhores <b>sneakers</b> para combinar conforto e estilo no seu dia-a-dia.
                     </p>
 
@@ -53,7 +69,7 @@ export function Hero() {
 
                 </div>
 
-                <div className='hidden md:block h-full absolute right-10 bottom-[-20px]'>
+                <div className='hidden md:block h-full absolute right-10 bottom-[-10px]'>
                 <Image
                 src={sneakerImg2}
                 alt='Foto tenis 2'

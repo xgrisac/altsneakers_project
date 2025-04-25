@@ -58,6 +58,7 @@ export function Footer() {
                         >
                             Contato via Whatsapp
                         </a>
+
                     </div>
                         
                     <div>
@@ -65,6 +66,11 @@ export function Footer() {
                         <p>Loja virtual especializada em calçados 1° linha Premium.</p>
                         <p>Entregamos no conforto da sua casa em qualquer lugar do Brasil.</p>
                         <p>Produtos vendidos sob encomenda.</p>
+                    </div>
+
+                    <div>
+                        <p>© Isac Ribeiro</p>
+                        <p>Todos os direitos reservados</p>
                     </div>
                     
                 </footer>

@@ -7,11 +7,11 @@ import Image from 'next/image'
 
 const services = [ /* Conteudo carousel */
     {
-        title: "Nike Air Force F1",
+        title: "Nike Air Force 1",
         duration: "Entrega Full⚡",
         price: "R$199,90",
         linkText: 'Ola, vi este produto, gostaria de mais informações',
-        image: "/Airforcef1.jpeg",
+        image: "/airforce1.jpeg",
     },
     {
         title: "Adidas Campus Couro",
@@ -21,21 +21,21 @@ const services = [ /* Conteudo carousel */
         image: "/campus.jpeg",
     },
     {
-        title: "Chinelo Nike Colab LV",
+        title: "Puma 180",
         duration: "Entrega Full⚡",
         price: "R$199,90",
         linkText: 'Ola, vi este produto, gostaria de mais informações',
-        image: "/chinelonike.jpeg",
+        image: "/puma180.jpeg",
     },
     {
-        title: "Adidas Samba XLG",
+        title: "New Balance 9060",
         duration: "Entrega Full⚡",
         price: "R$199,90",
         linkText: 'Ola, vi este produto, gostaria de mais informações',
-        image: "/samba.jpeg",
+        image: "/newbalance9060.jpeg",
     },
     {
-        title: "Nike Dunk White/Gray",
+        title: "Nike Dunk",
         duration: "Entrega Full⚡",
         price: "R$199,90",
         linkText: 'Ola, vi este produto, gostaria de mais informações',
@@ -47,6 +47,20 @@ const services = [ /* Conteudo carousel */
         price: "R$199,90",
         linkText: 'Ola, vi este produto, gostaria de mais informações',
         image: "/vansknu.jpeg",
+    },
+    {
+        title: "Louis Vuitton Skate",
+        duration: "Entrega Full⚡",
+        price: "R$199,90",
+        linkText: 'Ola, vi este produto, gostaria de mais informações',
+        image: "/tenislouisvuitton.jpeg",
+    },
+    {
+        title: "Air Jordan 1 Travis Scott",
+        duration: "Entrega Full⚡",
+        price: "R$199,90",
+        linkText: 'Ola, vi este produto, gostaria de mais informações',
+        image: "/airjodan1ts.jpeg",
     }
 
 ]
@@ -77,7 +91,7 @@ export function Services() {
             <div className="container mx-auto px-4" data-aos="fade-up"
      data-aos-duration="1000">
                 
-                <h2 className="text-4xl font-bold mb-12">Nossos Produtos</h2>
+                <h2 className="text-4xl font-bold mb-12">Destaques</h2>
 
                 <div className="relative">
               
@@ -130,9 +144,8 @@ export function Services() {
                     <button className="bg-white flex items-center justify-center rounded-full shadow-lg w-10 h-10 absolute -right-8 -translate-y-5 -translate-x-5 top-1/2 z-10" onClick={scrollNext}>
                         <ChevronRight className="w-6 h-6 text-blue-500 "/>
                     </button>
-              
+                    
                 </div>    
-
             </div>
         </section>
     )
