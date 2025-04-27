@@ -50,6 +50,3 @@ Abra um pull request no repositório original.
 Este projeto está licenciado sob a licença MIT.
 
 Deploy: https://altsneakers.vercel.app/
-
-![Logo do Altsneakers](public/logoaltsneakers.png)
-
